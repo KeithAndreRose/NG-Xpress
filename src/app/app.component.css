@@ -1,0 +1,13 @@
+.wrapper{
+  width: 1200px;
+  max-width: 1200px;
+  min-height: 100vh;
+  border: solid thin grey;
+  margin: auto;
+}
+
+footer{
+  width: 100vw;
+  height: 290px;
+  background:rgb(247, 247, 247);
+}

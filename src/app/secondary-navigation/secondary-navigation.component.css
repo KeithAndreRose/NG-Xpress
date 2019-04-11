@@ -1,0 +1,39 @@
+nav{
+  width: 97vw;
+  margin: 0 auto;
+  height: 3rem;
+  display: grid;
+}
+
+#targetStore{
+  /* width: 180px; */
+  grid-column: 1/2;
+  border: solid thin grey;
+}
+
+.container{
+  grid-column: 3/4;
+  border: solid thin grey;
+  display: grid;
+  grid-template-columns: auto 50px;
+  /* align-items: center; */
+  align-content: center;
+}
+
+ul{
+  list-style: none;
+  grid-column: 1/2;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+}
+
+li{
+  display: inline-block;
+  margin: auto 1rem;
+}
+
+.more{
+  grid-column: 2/3;
+  display: inline-block;
+}
